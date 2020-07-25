@@ -6,9 +6,9 @@ Do the following when creating an docker image.
 % make build
 ```
 Can be executed by specifying the Gradle version.
-For example, execute it for the Gradle=6.5.0 version. 
+For example, execute it for the Gradle=6.4.1 version. 
 ```
-% make build mvn_ver=6.5.0 ostype=centos7 javatype=oracle jdk_ver=jdk8
+% make build gradle_version=6.4.1 ostype=centos7 javatype=oracle jdk_ver=jdk8
 ```
 
 # Execute Gradle Build
@@ -20,7 +20,7 @@ Do the following when executing Gradle build.
 Can be executed by specifying the Gradle version.
 For example, execute it for the "Project" folder. 
 ```
-% make run src=Project cmd="gradlew" gradle_version=6.5.0 ostype=centos7 javatype=oracle jdk_ver=jdk8
+% make run src=Project cmd="gradlew" gradle_version=6.4.1 ostype=centos7 javatype=oracle jdk_ver=jdk8
 ```
 
 # Points to remember
